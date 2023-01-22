@@ -116,12 +116,10 @@
 .grid{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    /* margin:20px ; */
-    /* width: 100vw; */
     background-image: url('./image/Group\ 5.9ffae04.png');
     background-size: cover;
     min-height: 900px;
-    padding: 9rem;
+    padding: 9rem 9rem 9rem 0rem;
     background-repeat: no-repeat;
 }
 .try1{
@@ -316,6 +314,7 @@
     font-size: 48px;
     color: #350b89;
     font-weight:600 ;
+    width: 100%;
 }
 .GOT{
     display: flex;
@@ -500,7 +499,7 @@
 .sam h4{
     color: white;
     font-size: 30px;
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
 }
 .sam p{
     color: white;
@@ -661,20 +660,20 @@
     .avengers img{
         width: 300px;
         height: 300px;
-        margin: 10px 12%;
+        margin: 10px;
     }
     .word{
         margin-left: 100px;
     }
     .word h1{
         font-size: 30px;
-        width: 250px;
+        width: 60%;
         padding-left: 40px;
         text-align: justify;
     }
     .word p{
         font-size: 25px;
-        width: 270px;
+        width: 60%;
         padding-left: 40px;
     }
 
@@ -684,9 +683,30 @@
     .grid{
         display: grid;
         grid-template-columns: 1fr;
-        /* margin-left: -100px; */
-        padding: 1rem 1rem 1rem 0.2rem;
+        align-content: center;
+        padding: 1rem 1rem 1rem 1rem;
         background-size:cover;
+    }
+    .try1{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .try2{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .try3{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .try4{
+        width: 300px;
+    }
+    .try5{
+        width: 300px;
+    }
+    .try6{
+        width: 300px;
     }
     .cars img{
         width:100%;
@@ -715,7 +735,7 @@
         max-width: 60%;
         width: 150%;
         max-height: 60%;
-        padding:20px;
+        padding:50px;
     }
     .sam h2{
         font-size: 30px;
@@ -742,9 +762,9 @@
         width: 100%;
         margin-left: -20px;
     }
-    /* .cat{ */
-        /* padding: 15px; */
-    /* } */
+     .cat{ 
+         padding: 15px; 
+     }
     .footing{
         display: flex;
         flex-direction: column;
@@ -753,7 +773,7 @@
         margin-left:80px ;
     }
     .mec p{
-        width: 270px;
+        width: 100%;
         font-size: 20px;
         margin-right: 70px;
     }
@@ -796,8 +816,8 @@
         text-align: center;
         font-size:25px ;
         font-weight: 600;
-    }
-}
+    } 
+} 
 @media screen and (max-width:600px){ 
      .avengers{
         display: flex;
@@ -839,9 +859,9 @@
         margin-bottom: 0.5rem;
     }
      .sam img{  
-        max-width: 60%;
+        max-width: 80%;
         width: 150%;
-        max-height: 60%;
+        max-height: 50%;
         padding:20px;
     }
     .sam h2{
@@ -849,7 +869,7 @@
     }
     .sam h4{
         font-size: 16px;
-        padding-bottom: 0.5rem;
+        /* padding-t: 0rem; */
     }
     .cam{
         padding: 50px;
@@ -866,7 +886,7 @@
         height: 60%;
     }
     .cat img{
-        padding-left: 60px;
+        padding-left: 40px;
         align-items: center;
     }
     .cat{
@@ -874,13 +894,16 @@
     }
     .dam h1{
         font-size: 30px;
+        text-align: center;
+        width: 250px;
+        margin-left: 20%;
     }
     .footing{
         display: flex;
         flex-direction: column;
     }
     .mec {
-        margin-left: 90px;
+        margin-left: 12%;
     }
     .mec p{
         width: 270px;
@@ -918,7 +941,7 @@
     }
     .GOT p{
         font-size: 20px;
-        width: 350px;
+        width: 80%;
     }
     .GOT img{
         border-radius: 0px;
