@@ -653,7 +653,7 @@
     margin-top: 20px;
     margin-bottom: 16px;
 }
-@media only screen and (max-width:400px){
+@media screen and (max-width:400px){
     .avengers{
         display: flex;
         flex-direction: column-reverse;
@@ -663,15 +663,19 @@
         height: 300px;
         margin: 10px 12%;
     }
+    .word{
+        margin-left: 100px;
+    }
     .word h1{
         font-size: 30px;
-        width: 400px;
-        padding-left: 10px;
+        width: 250px;
+        padding-left: 40px;
+        text-align: justify;
     }
     .word p{
         font-size: 25px;
-        width: 350px;
-        padding-left: 10px;
+        width: 270px;
+        padding-left: 40px;
     }
 
     .hero{
@@ -735,11 +739,12 @@
         height: 60%;
     }
     .cat img{
-        padding-right: 20px;
+        width: 100%;
+        margin-left: -20px;
     }
-    .cat{
-        padding: 15px;
-    }
+    /* .cat{ */
+        /* padding: 15px; */
+    /* } */
     .footing{
         display: flex;
         flex-direction: column;
@@ -756,8 +761,8 @@
         margin-top: 50px;
     }
     .dam h1{
-        font-size: 30px;
-        margin-left: 30px;
+        font-size: 20px;
+        padding-left: 30px;
     }
     .GOT{
         display: flex;
@@ -793,8 +798,8 @@
         font-weight: 600;
     }
 }
-/* @media (max-width:600px){ */
-    /* .avengers{
+@media screen and (max-width:600px){ 
+     .avengers{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -833,7 +838,7 @@
         flex-direction: column-reverse;
         margin-bottom: 0.5rem;
     }
-    .sam img{
+     .sam img{  
         max-width: 60%;
         width: 150%;
         max-height: 60%;
@@ -874,13 +879,13 @@
         display: flex;
         flex-direction: column;
     }
-    .mec h1{
-        margin-left: 130px;
+    .mec {
+        margin-left: 90px;
     }
     .mec p{
         width: 270px;
         font-size: 20px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     .men h4{
         margin-left: 0px;
@@ -918,8 +923,8 @@
     .GOT img{
         border-radius: 0px;
         height: 300px;
-    } */
-/* } */
+    }
+}
 /* @media (max-width:360px){ */
     /* .mec */
 /* } */
