@@ -653,7 +653,7 @@
     margin-top: 20px;
     margin-bottom: 16px;
 }
-@media (max-width:400px){
+@media only screen and (max-width:400px){
     .avengers{
         display: flex;
         flex-direction: column-reverse;
